@@ -1,0 +1,152 @@
+==11896== Memcheck, a memory error detector
+==11896== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11896== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11896== Command: ./autocorrect
+==11896== 
+==11896== Warning: client switching stacks?  SP change: 0x1ffefffef0 --> 0x1ffed2d090
+==11896==          to suppress, use: --max-stackframe=2960992 or greater
+==11896== Invalid write of size 8
+==11896==    at 0x108F9C: main (autocorrect_trie.c:234)
+==11896==  Address 0x1ffed2d088 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 8
+==11896==    at 0x4EBAECB: fopen@@GLIBC_2.2.5 (iofopen.c:90)
+==11896==    by 0x108FA0: main (autocorrect_trie.c:234)
+==11896==  Address 0x1ffed2d088 is on thread 1's stack
+==11896==  in frame #0, created by fopen@@GLIBC_2.2.5 (iofopen.c:88)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x108FA1: main (autocorrect_trie.c:234)
+==11896==  Address 0x1ffed2d0c0 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x4C36657: memset (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x108FC0: main (autocorrect_trie.c:238)
+==11896==  Address 0x1ffed2d0d0 is on thread 1's stack
+==11896==  in frame #1, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x4C3665A: memset (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x108FC0: main (autocorrect_trie.c:238)
+==11896==  Address 0x1ffed2d0d8 is on thread 1's stack
+==11896==  in frame #1, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x4C3665E: memset (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x108FC0: main (autocorrect_trie.c:238)
+==11896==  Address 0x1ffed2d0e0 is on thread 1's stack
+==11896==  in frame #1, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x4C36662: memset (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x108FC0: main (autocorrect_trie.c:238)
+==11896==  Address 0x1ffed2d0e8 is on thread 1's stack
+==11896==  in frame #1, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x108FC8: main (autocorrect_trie.c:240)
+==11896==  Address 0x1ffed2d0c8 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 1
+==11896==    at 0x108FCF: main (autocorrect_trie.c:249)
+==11896==  Address 0x1ffed2d09e is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 8
+==11896==    at 0x109071: main (autocorrect_trie.c:252)
+==11896==  Address 0x1ffed2d0c0 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 4
+==11896==    at 0x109001: main (autocorrect_trie.c:255)
+==11896==  Address 0x1ffed2d0bc is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 4
+==11896==    at 0x109007: main (autocorrect_trie.c:256)
+==11896==  Address 0x1ffed2d0bc is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 8
+==11896==    at 0x10900D: main (autocorrect_trie.c:256)
+==11896==  Address 0x1ffed3c4b0 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 4
+==11896==    at 0x109027: main (autocorrect_trie.c:258)
+==11896==  Address 0x1ffed2d0bc is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid write of size 8
+==11896==    at 0x10902D: main (autocorrect_trie.c:258)
+==11896==  Address 0x1ffed3c4b0 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 4
+==11896==    at 0x109035: main (autocorrect_trie.c:259)
+==11896==  Address 0x1ffed2d0bc is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 8
+==11896==    at 0x10903B: main (autocorrect_trie.c:259)
+==11896==  Address 0x1ffed3c4b0 is on thread 1's stack
+==11896==  in frame #0, created by main (autocorrect_trie.c:230)
+==11896== 
+==11896== Invalid read of size 8
+==11896==    at 0x108A9C: trie_insert (autocorrect_trie.c:50)
+==11896==    by 0x109051: main (autocorrect_trie.c:259)
+==11896==  Address 0x74636172700a5f35 is not stack'd, malloc'd or (recently) free'd
+==11896== 
+==11896== 
+==11896== Process terminating with default action of signal 11 (SIGSEGV)
+==11896==  General Protection Fault
+==11896==    at 0x108A9C: trie_insert (autocorrect_trie.c:50)
+==11896==    by 0x109051: main (autocorrect_trie.c:259)
+==11896== 
+==11896== FILE DESCRIPTORS: 4 open at exit.
+==11896== Open file descriptor 3: rand_file_big.txt
+==11896==    at 0x4F4BC8E: open (open64.c:47)
+==11896==    by 0x4EC8589: _IO_file_open (fileops.c:189)
+==11896==    by 0x4EC8589: _IO_file_fopen@@GLIBC_2.2.5 (fileops.c:281)
+==11896==    by 0x4EBAEA9: __fopen_internal (iofopen.c:78)
+==11896==    by 0x4EBAEA9: fopen@@GLIBC_2.2.5 (iofopen.c:89)
+==11896==    by 0x108FA0: main (autocorrect_trie.c:234)
+==11896== 
+==11896== Open file descriptor 2: /dev/pts/0
+==11896==    <inherited from parent>
+==11896== 
+==11896== Open file descriptor 1: /dev/pts/0
+==11896==    <inherited from parent>
+==11896== 
+==11896== Open file descriptor 0: /dev/pts/0
+==11896==    <inherited from parent>
+==11896== 
+==11896== 
+==11896== HEAP SUMMARY:
+==11896==     in use at exit: 768 bytes in 2 blocks
+==11896==   total heap usage: 3 allocs, 1 frees, 4,864 bytes allocated
+==11896== 
+==11896== 216 bytes in 1 blocks are still reachable in loss record 1 of 2
+==11896==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x108A13: getnode (autocorrect_trie.c:26)
+==11896==    by 0x109023: main (autocorrect_trie.c:258)
+==11896== 
+==11896== 552 bytes in 1 blocks are still reachable in loss record 2 of 2
+==11896==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11896==    by 0x4EBAE49: __fopen_internal (iofopen.c:65)
+==11896==    by 0x4EBAE49: fopen@@GLIBC_2.2.5 (iofopen.c:89)
+==11896==    by 0x108FA0: main (autocorrect_trie.c:234)
+==11896== 
+==11896== LEAK SUMMARY:
+==11896==    definitely lost: 0 bytes in 0 blocks
+==11896==    indirectly lost: 0 bytes in 0 blocks
+==11896==      possibly lost: 0 bytes in 0 blocks
+==11896==    still reachable: 768 bytes in 2 blocks
+==11896==         suppressed: 0 bytes in 0 blocks
+==11896== 
+==11896== For counts of detected and suppressed errors, rerun with: -v
+==11896== ERROR SUMMARY: 370114 errors from 18 contexts (suppressed: 0 from 0)
+Segmentation fault (core dumped)

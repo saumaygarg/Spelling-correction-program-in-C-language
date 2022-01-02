@@ -1,0 +1,732 @@
+desc: (none)
+cmd: ./autocorrect
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3104748
+mem_heap_B=4648
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6872501
+mem_heap_B=583328
+mem_heap_extra_B=231496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=9251832
+mem_heap_B=944928
+mem_heap_extra_B=376136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=12950650
+mem_heap_B=1503808
+mem_heap_extra_B=599688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=16076485
+mem_heap_B=1971288
+mem_heap_extra_B=786680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=18372369
+mem_heap_B=2312728
+mem_heap_extra_B=923256
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2312728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2308080 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 1176240 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n2: 1154320 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 1131760 0x10902F: main (autocorrect_binary.c:259)
+    n0: 22560 in 2 places, all below massif's threshold (1.00%)
+   n0: 21920 in 1 place, below massif's threshold (1.00%)
+  n0: 1131840 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=21386988
+mem_heap_B=2758488
+mem_heap_extra_B=1101560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=23827308
+mem_heap_B=3114688
+mem_heap_extra_B=1244040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=26841636
+mem_heap_B=3554208
+mem_heap_extra_B=1419848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=29424221
+mem_heap_B=3930048
+mem_heap_extra_B=1570184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=33873079
+mem_heap_B=4563408
+mem_heap_extra_B=1823528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=37030480
+mem_heap_B=5015008
+mem_heap_extra_B=2004168
+mem_stacks_B=0
+heap_tree=detailed
+n2: 5015008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 5010360 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 2612880 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 2506760 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 2397400 0x10902F: main (autocorrect_binary.c:259)
+    n2: 107400 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 105560 0x10904E: main (autocorrect_binary.c:263)
+     n0: 1840 in 1 place, below massif's threshold (1.00%)
+    n0: 1960 in 1 place, below massif's threshold (1.00%)
+   n2: 106120 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 104200 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 102000 0x10904E: main (autocorrect_binary.c:263)
+     n0: 2200 in 2 places, all below massif's threshold (1.00%)
+    n0: 1920 in 1 place, below massif's threshold (1.00%)
+  n0: 2397480 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=41193724
+mem_heap_B=5598528
+mem_heap_extra_B=2237576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=45068185
+mem_heap_B=6138488
+mem_heap_extra_B=2453560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=49230196
+mem_heap_B=6715248
+mem_heap_extra_B=2684264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=52961801
+mem_heap_B=7225648
+mem_heap_extra_B=2888424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=55688077
+mem_heap_B=7595968
+mem_heap_extra_B=3036552
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7595968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7591320 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 4045520 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 3799480 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 3545720 0x10902F: main (autocorrect_binary.c:259)
+    n2: 247280 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 239760 0x10904E: main (autocorrect_binary.c:263)
+     n0: 7520 in 2 places, all below massif's threshold (1.00%)
+    n0: 6480 in 1 place, below massif's threshold (1.00%)
+   n2: 246040 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 239280 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 231840 0x10904E: main (autocorrect_binary.c:263)
+     n0: 7440 in 2 places, all below massif's threshold (1.00%)
+    n0: 6760 in 1 place, below massif's threshold (1.00%)
+  n0: 3545800 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=59850475
+mem_heap_B=8151368
+mem_heap_extra_B=3258712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=62289899
+mem_heap_B=8479248
+mem_heap_extra_B=3389864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=65734417
+mem_heap_B=8935808
+mem_heap_extra_B=3572488
+mem_stacks_B=0
+heap_tree=detailed
+n2: 8935808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 8931160 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 4815960 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 4467880 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 4115160 0x10902F: main (autocorrect_binary.c:259)
+    n2: 341560 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 329120 0x10904E: main (autocorrect_binary.c:263)
+     n0: 12440 in 2 places, all below massif's threshold (1.00%)
+    n0: 11160 in 1 place, below massif's threshold (1.00%)
+   n2: 348080 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 336480 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 323960 0x10904E: main (autocorrect_binary.c:263)
+     n0: 12520 in 2 places, all below massif's threshold (1.00%)
+    n0: 11600 in 1 place, below massif's threshold (1.00%)
+  n0: 4115200 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=68461744
+mem_heap_B=9294128
+mem_heap_extra_B=3715816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=72910642
+mem_heap_B=9873808
+mem_heap_extra_B=3947688
+mem_stacks_B=0
+heap_tree=detailed
+n2: 9873808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 9869160 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 5365720 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 4938240 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 4503360 0x10902F: main (autocorrect_binary.c:259)
+    n2: 418640 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 402520 0x10904E: main (autocorrect_binary.c:263)
+     n0: 16120 in 2 places, all below massif's threshold (1.00%)
+    n0: 16240 in 1 place, below massif's threshold (1.00%)
+   n2: 427480 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 411560 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 394560 0x10904E: main (autocorrect_binary.c:263)
+     n0: 17000 in 2 places, all below massif's threshold (1.00%)
+    n0: 15920 in 1 place, below massif's threshold (1.00%)
+  n0: 4503440 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=76068063
+mem_heap_B=10281408
+mem_heap_extra_B=4110728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=80088077
+mem_heap_B=10795248
+mem_heap_extra_B=4316264
+mem_stacks_B=0
+heap_tree=detailed
+n2: 10795248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 10790600 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 5914680 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 5398960 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 4875840 0x10902F: main (autocorrect_binary.c:259)
+    n2: 501120 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 480120 0x10904E: main (autocorrect_binary.c:263)
+     n0: 21000 in 2 places, all below massif's threshold (1.00%)
+    n0: 22000 in 1 place, below massif's threshold (1.00%)
+   n2: 515720 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 494800 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 472960 0x10904E: main (autocorrect_binary.c:263)
+     n0: 21840 in 2 places, all below massif's threshold (1.00%)
+    n0: 20920 in 1 place, below massif's threshold (1.00%)
+  n0: 4875920 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=84681922
+mem_heap_B=11381248
+mem_heap_extra_B=4550664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=87266199
+mem_heap_B=11707848
+mem_heap_extra_B=4681304
+mem_stacks_B=0
+heap_tree=detailed
+n2: 11707848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 11703200 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 6464040 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 5853560 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 5239080 0x10902F: main (autocorrect_binary.c:259)
+    n2: 586240 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 559120 0x10904E: main (autocorrect_binary.c:263)
+     n0: 27120 in 2 places, all below massif's threshold (1.00%)
+    n0: 28240 in 1 place, below massif's threshold (1.00%)
+   n2: 610480 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 584120 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 556240 0x10904E: main (autocorrect_binary.c:263)
+     n0: 27880 in 2 places, all below massif's threshold (1.00%)
+    n0: 26360 in 1 place, below massif's threshold (1.00%)
+  n0: 5239160 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=91285221
+mem_heap_B=12211248
+mem_heap_extra_B=4882664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=94443186
+mem_heap_B=12603928
+mem_heap_extra_B=5039736
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12603928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 12599280 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 7011800 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 6300640 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 5587400 0x10902F: main (autocorrect_binary.c:259)
+    n2: 677880 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 643840 0x10904E: main (autocorrect_binary.c:263)
+     n0: 34040 in 2 places, all below massif's threshold (1.00%)
+    n0: 35360 in 1 place, below massif's threshold (1.00%)
+   n2: 711160 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 676960 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 642440 0x10904E: main (autocorrect_binary.c:263)
+     n0: 34520 in 2 places, all below massif's threshold (1.00%)
+    n0: 34200 in 1 place, below massif's threshold (1.00%)
+  n0: 5587480 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=98462866
+mem_heap_B=13095688
+mem_heap_extra_B=5236440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=102911764
+mem_heap_B=13642448
+mem_heap_extra_B=5455144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=105495263
+mem_heap_B=13954368
+mem_heap_extra_B=5579912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=109370403
+mem_heap_B=14425448
+mem_heap_extra_B=5768344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=111953994
+mem_heap_B=14733208
+mem_heap_extra_B=5891448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=114537231
+mem_heap_B=15039688
+mem_heap_extra_B=6014040
+mem_stacks_B=0
+heap_tree=detailed
+n2: 15039688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15035040 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 8542520 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 7520800 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 6492440 0x10902F: main (autocorrect_binary.c:259)
+    n2: 966840 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 906440 0x10904E: main (autocorrect_binary.c:263)
+     n0: 60400 in 2 places, all below massif's threshold (1.00%)
+    n0: 61520 in 1 place, below massif's threshold (1.00%)
+   n2: 1021720 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 961640 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 900000 0x10904E: main (autocorrect_binary.c:263)
+     n0: 61640 in 2 places, all below massif's threshold (1.00%)
+    n0: 60080 in 1 place, below massif's threshold (1.00%)
+  n0: 6492520 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=117120712
+mem_heap_B=15342688
+mem_heap_extra_B=6135240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=122287187
+mem_heap_B=15951288
+mem_heap_extra_B=6378680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=127453673
+mem_heap_B=16550808
+mem_heap_extra_B=6618488
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16550808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 16546160 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 9522760 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 8279040 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 7023360 0x10902F: main (autocorrect_binary.c:259)
+    n2: 1172960 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1091320 0x10904E: main (autocorrect_binary.c:263)
+     n0: 81640 in 2 places, all below massif's threshold (1.00%)
+    n0: 82720 in 1 place, below massif's threshold (1.00%)
+   n2: 1243720 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 1161960 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1078280 0x10904E: main (autocorrect_binary.c:263)
+     n0: 83680 in 2 places, all below massif's threshold (1.00%)
+    n0: 81760 in 1 place, below massif's threshold (1.00%)
+  n0: 7023400 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=130037360
+mem_heap_B=16851528
+mem_heap_extra_B=6738776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=132621150
+mem_heap_B=17145808
+mem_heap_extra_B=6856488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=135204269
+mem_heap_B=17441248
+mem_heap_extra_B=6974664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=137787945
+mem_heap_B=17731688
+mem_heap_extra_B=7090840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=140371279
+mem_heap_B=18024448
+mem_heap_extra_B=7207944
+mem_stacks_B=0
+heap_tree=detailed
+n2: 18024448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 18019800 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 10501400 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 9012280 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 7518320 0x10902F: main (autocorrect_binary.c:259)
+    n2: 1386760 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1278320 0x10904E: main (autocorrect_binary.c:263)
+     n0: 108440 in 2 places, all below massif's threshold (1.00%)
+    n0: 107200 in 1 place, below massif's threshold (1.00%)
+   n2: 1489120 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 1381160 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1270040 0x10904E: main (autocorrect_binary.c:263)
+     n0: 111120 in 2 places, all below massif's threshold (1.00%)
+    n0: 107960 in 1 place, below massif's threshold (1.00%)
+  n0: 7518400 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=144246082
+mem_heap_B=18460848
+mem_heap_extra_B=7382504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=146829706
+mem_heap_B=18748928
+mem_heap_extra_B=7497736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=151996390
+mem_heap_B=19322808
+mem_heap_extra_B=7727288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=155871401
+mem_heap_B=19751448
+mem_heap_extra_B=7898744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=158454863
+mem_heap_B=20036568
+mem_heap_extra_B=8012792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=161038723
+mem_heap_B=20317608
+mem_heap_extra_B=8125208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=166205208
+mem_heap_B=20874848
+mem_heap_extra_B=8348104
+mem_stacks_B=0
+heap_tree=detailed
+n2: 20874848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 20870200 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 12451240 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 10431000 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 8418920 0x10902F: main (autocorrect_binary.c:259)
+    n2: 1844480 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1672720 0x10904E: main (autocorrect_binary.c:263)
+     n0: 171760 in 2 places, all below massif's threshold (1.00%)
+    n0: 167600 in 1 place, below massif's threshold (1.00%)
+   n2: 2020240 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 1847920 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 1671600 0x10904E: main (autocorrect_binary.c:263)
+     n0: 176320 in 2 places, all below massif's threshold (1.00%)
+    n0: 172320 in 1 place, below massif's threshold (1.00%)
+  n0: 8418960 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=168501099
+mem_heap_B=21121968
+mem_heap_extra_B=8446952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=170797117
+mem_heap_B=21367768
+mem_heap_extra_B=8545272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=173093497
+mem_heap_B=21613128
+mem_heap_extra_B=8643416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=175389684
+mem_heap_B=21855608
+mem_heap_extra_B=8740408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=177685715
+mem_heap_B=22097168
+mem_heap_extra_B=8837032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=179981722
+mem_heap_B=22341728
+mem_heap_extra_B=8934856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=182277914
+mem_heap_B=22583128
+mem_heap_extra_B=9031416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=184573919
+mem_heap_B=22823528
+mem_heap_extra_B=9127576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=186869873
+mem_heap_B=23064408
+mem_heap_extra_B=9223928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=189166058
+mem_heap_B=23302688
+mem_heap_extra_B=9319240
+mem_stacks_B=0
+heap_tree=detailed
+n2: 23302688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 23298040 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 14174720 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 11648240 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 9123280 0x10902F: main (autocorrect_binary.c:259)
+    n2: 2287960 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 2045560 0x10904E: main (autocorrect_binary.c:263)
+     n0: 242400 in 2 places, all below massif's threshold (1.00%)
+    n0: 237000 in 1 place, below massif's threshold (1.00%)
+   n2: 2526480 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 2284280 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 2037760 0x10904E: main (autocorrect_binary.c:263)
+     n0: 246520 in 2 places, all below massif's threshold (1.00%)
+    n0: 242200 in 1 place, below massif's threshold (1.00%)
+  n0: 9123320 0x109001: main (autocorrect_binary.c:258)
+ n0: 4648 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=191462442
+mem_heap_B=23542088
+mem_heap_extra_B=9415000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=193758693
+mem_heap_B=23776088
+mem_heap_extra_B=9508600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=196054587
+mem_heap_B=24012848
+mem_heap_extra_B=9603304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=197888990
+mem_heap_B=24162080
+mem_heap_extra_B=9662160
+mem_stacks_B=0
+heap_tree=peak
+n2: 24162080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 24155160 0x108A12: getnode (autocorrect_binary.c:27)
+  n2: 14798280 0x108A5B: b_insert (autocorrect_binary.c:46)
+   n3: 12074880 0x108ADD: b_insert (autocorrect_binary.c:57)
+    n0: 9356840 0x10902F: main (autocorrect_binary.c:259)
+    n2: 2451320 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 2178080 0x10904E: main (autocorrect_binary.c:263)
+     n0: 273240 in 2 places, all below massif's threshold (1.00%)
+    n0: 266720 in 1 place, below massif's threshold (1.00%)
+   n2: 2723400 0x108ABA: b_insert (autocorrect_binary.c:54)
+    n2: 2451360 0x108ADD: b_insert (autocorrect_binary.c:57)
+     n0: 2176920 0x10904E: main (autocorrect_binary.c:263)
+     n0: 274440 in 2 places, all below massif's threshold (1.00%)
+    n0: 272040 in 1 place, below massif's threshold (1.00%)
+  n0: 9356880 0x109001: main (autocorrect_binary.c:258)
+ n0: 6920 in 3 places, all below massif's threshold (1.00%)

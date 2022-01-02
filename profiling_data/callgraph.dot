@@ -1,0 +1,20 @@
+digraph "callgraph" {
+  F555cd9f265e0 [label="b_insert'2\n1 700 993"];
+  F555cda608e80 [label="b_insert\n2 048 593"];
+  F555cda693a10 [label="getnode\n1 286 199"];
+  F555cda6ce820 [label="main\n2 048 593"];
+  F555cda70b850 [label="malloc\n1 193 569"];
+  F555cda76b880 [label="__strcpy_ssse3\n127 518"];
+  F555cda8e53f0 [label="(below main)\n2 048 593"];
+  F555cda8f3700 [label="__strcmp_ssse3\n151 680"];
+  F555cda932d30 [label="_int_malloc\n887 381"];
+  F555cd9f265e0 -> F555cd9f265e0 [weight=2,label="655 023 (2 407x)"];
+  F555cd9f265e0 -> F555cda693a10 [weight=2,label="1 286 199 (5 448x)"];
+  F555cd9f265e0 -> F555cda76b880 [weight=2,label="127 518 (5 448x)"];
+  F555cda608e80 -> F555cd9f265e0 [weight=2,label="1 700 993 (6 320x)"];
+  F555cda608e80 -> F555cda8f3700 [weight=2,label="151 680 (6 320x)"];
+  F555cda693a10 -> F555cda70b850 [weight=2,label="1 193 569 (5 449x)"];
+  F555cda6ce820 -> F555cda608e80 [weight=2,label="2 048 593 (6 320x)"];
+  F555cda70b850 -> F555cda932d30 [weight=2,label="887 381 (5 281x)"];
+  F555cda8e53f0 -> F555cda6ce820 [weight=2,label="2 048 593 (0x)"];
+}
